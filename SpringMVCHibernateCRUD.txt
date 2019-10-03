@@ -1,0 +1,8 @@
+CREATE TABLE `EMP_TBL` (
+  `id` int(4) unsigned zerofill NOT NULL auto_increment,
+  `name` varchar(20) NOT NULL,
+  `email` varchar(20) NOT NULL,
+  `address` varchar(20) NOT NULL,
+  `telephone` varchar(20) NOT NULL,
+   PRIMARY KEY  (`id`)
+);
